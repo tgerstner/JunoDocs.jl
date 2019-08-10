@@ -28,16 +28,26 @@ Download, install and open [Atom](https://atom.io). If you have it already, make
 
 ## 3. Install Juno
 
-In Atom, go to Settings (`Ctrl+,`, or `Cmd+,` on macOS) and go to the "Install" panel.
+In Atom, go to Settings (`Ctrl+,`, or `Cmd+,` on macOS) or (File / Settings). 
 
-Type `uber-juno` into the search box and hit enter. Click the install button on the package of the same name.
+Click on "Install" listed on the left.
+
+In the search box at the top of the screen, enter "uber". Uber-Juno will show up. 
+
+Click the install button in the package.
 
 Atom will then set up Juno for you, installing the required Atom and Julia packages.
 
 ### Note
 
-You may need to add the path to Julia if it is not accessible via the command `julia`. To do so, go to Packages > Julia > Settings
-and in the first box for "Julia Path" insert the path to your Julia installation (example: C:\Users\UserName\AppData\Local\Julia-1.0.0\bin\julia.exe)
+You may need to add the path to Julia if it is not accessible via the command `julia`. 
+
+To do so, go to Settings (File / Settings) then click on Packages. [If you cannot find Julia, sometimes it is under Install] 
+
+You are looking for julia-client. 
+
+Once you have located it, click Settings. Look for "Julia Path and enter the location where Julia.exe can be found.
+(example: C:\Users\UserName\AppData\Local\Julia-1.0.0\bin\julia.exe)
 
 ## 4. Use Juno
 
